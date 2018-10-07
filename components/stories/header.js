@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf, action } from '@storybook/react';
 
 storiesOf('Header', module)
   .add('default view', () => {
